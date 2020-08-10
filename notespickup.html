@@ -1,0 +1,1104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/afaf6d5e30.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="C:\Users\hp\AppData\Local\atom\app-1.49.0\suman.css"> -->
+    <title>lecturenotes.in</title>
+    <style media="screen">
+    *{
+      margin:0px;
+      padding:0px;
+      box-sizing:border-box;
+    }
+
+    body{
+      background: url('C:/Users/hp/Downloads/WhatsApp Image 2020-08-02 at 12.23.46 AM.jpeg') no-repeat;
+      background-size: cover;
+
+    }
+    /* nav{
+      opacity:0.8;
+    } */
+    .nav-bar{
+      width:100%;
+      height:75px;
+      padding: 10px 0;
+      background: rgb(4, 2, 59);
+      text-align:right;
+      box-sizing: border-box;
+      border-bottom: 4px solid black;
+    }
+    .nav-bar ul{
+      display:inline-flex;
+      height:100%
+      width: 780px;
+      font-weight:bold;
+      letter-spacing: 2px;
+      list-style: none;
+      position:relative;
+      color: white;
+    }
+    .nav-bar ul li{
+      width:150px;
+
+      margin:15px;
+      padding:0;
+    }
+    .navbar-brand{
+      width:150px;
+
+      margin:0px;
+      padding:0;
+    }
+    .nav-bar ul li a{
+      color: white;
+    }
+    .navbar .fa{
+      margin-right: 4px;
+    }
+    .sub-menu{
+      display: none;
+    }
+    .nav-bar ul li:hover{
+
+    color:rgb(29, 57, 161);
+    }
+    .nav-bar ul li:hover .sub-menu{
+      display:block;
+      position:absolute;
+      background: rgb(4, 2, 59);
+      margin-top: 15px;
+      margin-left: -15px;
+    }
+    .nav-bar ul li:hover .sub-menu ul{
+      display:block;
+      margin:10px;
+    }
+    .nav-bar ul li:hover .sub-menu ul li{
+      width:150px;
+      padding: 10px;
+      border-bottom: 1px dotted rgb(247, 245, 246);
+      background: transparent;
+      border-radius: 0;
+      text-align:left;
+    }
+    .nav-bar ul li:hover .sub-menu ul li:last child{
+      border-bottom: none;
+    }
+    .nav-bar ul li:hover .sub-menu ul li:hover{
+      color:rgb(29, 57, 161);
+    }
+    .fa-angle-right{
+      float: right;
+    }
+    .sub-sub-menub{
+      display:none;
+    }
+    .hover-me:hover .sub-sub-menub{
+      display:block;
+      position:absolute;
+      background: rgb(4, 2, 59);
+      margin-top: -40px;
+      margin-left: 140px;
+    }
+    .sub-sub-menua{
+      display:none;
+    }
+    .hover-me:hover .sub-sub-menua{
+      display:table-column-group;
+      position:absolute;
+      background: rgb(4, 2, 59);
+      margin-top: -40px;
+      margin-left: 140px;
+      width:300%;
+    }
+    .sub-sub-menuc{
+      display:none;
+    }
+    .hover-me:hover .sub-sub-menuc{
+      display:block;
+      position:absolute;
+      background: rgb(4, 2, 59);
+      margin-top: -40px;
+      margin-left: 140px;
+    }
+    .pads{
+      background-image: url(https://img.jakpost.net/c/2019/03/02/2019_03_02_66706_1551461528._large.jpg);
+
+      text-align: center;
+      padding-top:9%;
+      background-size:cover;
+    }
+    .lol{
+      color: rgb(4, 2, 59);
+      font-size: 4em;
+      font-family: 'Playfair Display', serif;
+    }
+    .hello{
+      color:rgb(227, 187, 7);
+      text-align: center;
+      font-size: 40px;
+      font-family: sans-serif;
+      text-decoration: underline;
+      text-decoration-style:solid;
+    }
+    .all{
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 2%;
+      padding-bottom: 5%;
+      font-size: 1.5em;
+    }
+    .first{
+      color: white;
+      border-right: groove;
+    }
+    .second{
+      border-right: groove;
+      color: white;
+    }
+    .third{
+      border-right: groove;
+      color: white;
+    }
+    .fourth{
+
+      color: white;
+    }
+    .jumbotron{
+
+      background-color: rgb(247, 249, 250);
+    }
+    .yo{
+      color: rgb(4, 2, 59);
+      font-size: 30px;
+    }
+    .yee{
+      width: 100%;
+      padding-left: 35%;
+      padding-right: 35%
+    }
+    .center{
+      text-align: center;
+      text-decoration: underline;
+      font-size: 40px;
+      font-family: sans-serif;
+    }
+    .nex{
+      border-bottom: groove;
+      margin-left: 5%;
+      color: grey;
+      margin-right: 5%;
+    }
+    .nexa{
+      padding-top: 5px;
+      margin-left: 10%;
+      color: grey;
+      margin-right: 10%;
+    }
+    .kala{
+      color:white;
+    }
+    .wo{
+      text-decoration: underline;
+      color:rgb(227, 187, 7)
+    }
+    .tala{
+      background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBY-LIbGQGWDKdDE5FBsAroGPlgQ-zpzsV1Q&usqp=CAU);
+      background-size: cover;
+      color: white;
+      background-color: white;
+    }
+    .mala{
+      padding-top: 12%;
+    }
+    #yay{
+      font-size:12px;
+      color:white;
+      list-style:none;
+      margin-right:20px;
+      margin-left: 20px;
+    }
+    #yay li a{
+      color:white;
+    }
+    #yay li a:hover{
+      color:orange;
+    }
+    #wok{
+      color:white;
+    }
+    #wok:hover{
+      color:orange;
+    }
+    .ms-footbar{
+      background-color: rgb(28, 26, 26);
+      padding-top: 60px;
+    }
+    .final{
+      text-align: right;
+    }
+    .sum{
+
+      box-sizing:border-box;
+color:rgb(189, 189, 189);
+display:block;
+font-family:Roboto, sans-serif;
+font-size:15px;
+font-weight:400;
+height:25.6px;
+line-height:26px;
+margin-block-end:0px;
+margin-block-start:0px;
+margin-bottom:0px;
+margin-inline-end:0px;
+margin-inline-start:0px;
+margin-top:0px;
+text-align:center;
+text-size-adjust:100%;
+width:690px;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+text-align: center;
+
+    }
+    .navbar-default{
+      background-color: orange;
+    }
+    #back-top{
+      position:fixed;
+      width:50px;
+      height:50px;
+      background: orange;
+      bottom:40px;
+      right:50px;
+      text-align: center;
+      text-decoration: none;
+      line-height: 50px;
+      color:rgb(28, 26, 26);
+      border-radius: 400px;
+      font-size: 40px;
+    }
+    .huu{
+      background-color: orange;
+    }
+    .color-bg-white{
+      background-color: rgb(200, 213, 219);
+    }
+    .ok{
+      border-radius: 400px;
+    }
+    #fb{
+
+      /* width:0px;
+      height:50px;
+      background:rgb(33, 93, 166);
+
+      text-align: center;
+      text-decoration: none;
+      line-height: 50px;
+      color:white;
+      border-radius: 100px;
+      font-size: 40px; */
+      background-color:rgb(59, 89, 152);
+border-bottom-color:rgb(245, 245, 245);
+border-bottom-left-radius:2000px;
+border-bottom-right-radius:2000px;
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(245, 245, 245);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(245, 245, 245);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(245, 245, 245);
+border-top-left-radius:2000px;
+border-top-right-radius:2000px;
+border-top-style:none;
+border-top-width:0px;
+box-shadow:rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+box-sizing:border-box;
+color:rgb(245, 245, 245);
+cursor:pointer;
+display:inline-block;
+font-family:Roboto, sans-serif;
+font-size:12px;
+font-weight:400;
+height:50px;
+line-height:50px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:0px;
+margin-top:0px;
+position:relative;
+text-align:center;
+text-decoration-color:rgb(245, 245, 245);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.3s;
+transition-property:all;
+transition-timing-function:ease;
+width:50px;
+z-index:1;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+    #tw{
+
+      /* width:50px;
+      height:50px;
+      background:rgb(15, 192, 219);
+
+
+      text-decoration: none;
+
+      color:white;
+      border-radius: 400px;
+      font-size: 40px; */
+      background-color:rgb(0, 172, 237);
+border-bottom-color:rgb(245, 245, 245);
+border-bottom-left-radius:2000px;
+border-bottom-right-radius:2000px;
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(245, 245, 245);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(245, 245, 245);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(245, 245, 245);
+border-top-left-radius:2000px;
+border-top-right-radius:2000px;
+border-top-style:none;
+border-top-width:0px;
+box-shadow:rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+box-sizing:border-box;
+color:rgb(245, 245, 245);
+cursor:pointer;
+display:inline-block;
+font-family:Roboto, sans-serif;
+font-size:12px;
+font-weight:400;
+height:50px;
+line-height:50px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:0px;
+margin-top:0px;
+position:relative;
+text-align:center;
+text-decoration-color:rgb(245, 245, 245);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.3s;
+transition-property:all;
+transition-timing-function:ease;
+width:50px;
+z-index:1;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+    #ln{
+
+      /* width:50px;
+      height:50px;
+      background:rgb(51, 138, 181);
+
+      text-decoration: none;
+
+      color:white;
+      border-radius: 400px;
+      font-size: 40px; */
+      background-color:rgb(0, 123, 182);
+border-bottom-color:rgb(245, 245, 245);
+border-bottom-left-radius:2000px;
+border-bottom-right-radius:2000px;
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(245, 245, 245);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(245, 245, 245);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(245, 245, 245);
+border-top-left-radius:2000px;
+border-top-right-radius:2000px;
+border-top-style:none;
+border-top-width:0px;
+box-shadow:rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+box-sizing:border-box;
+color:rgb(245, 245, 245);
+cursor:pointer;
+display:inline-block;
+font-family:Roboto, sans-serif;
+font-size:12px;
+font-weight:400;
+height:50px;
+line-height:50px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:0px;
+margin-top:0px;
+position:relative;
+text-align:center;
+text-decoration-color:rgb(245, 245, 245);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.3s;
+transition-property:all;
+transition-timing-function:ease;
+width:50px;
+z-index:1;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+    #pi{
+
+
+      /* width:50px;
+      height:50px;
+      background:rgb(201, 62, 62);
+
+      text-align: center;
+      text-decoration: none;
+
+      color:white;
+      border-radius: 400px;
+      font-size: 40px; */
+      background-color:rgb(221, 75, 57);
+border-bottom-color:rgb(245, 245, 245);
+border-bottom-left-radius:2000px;
+border-bottom-right-radius:2000px;
+border-bottom-style:none;
+border-bottom-width:0px;
+border-image-outset:0;
+border-image-repeat:stretch;
+border-image-slice:100%;
+border-image-source:none;
+border-image-width:1;
+border-left-color:rgb(245, 245, 245);
+border-left-style:none;
+border-left-width:0px;
+border-right-color:rgb(245, 245, 245);
+border-right-style:none;
+border-right-width:0px;
+border-top-color:rgb(245, 245, 245);
+border-top-left-radius:2000px;
+border-top-right-radius:2000px;
+border-top-style:none;
+border-top-width:0px;
+box-shadow:rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.2) 0px 3px 1px -2px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px;
+box-sizing:border-box;
+color:rgb(245, 245, 245);
+cursor:pointer;
+display:inline-block;
+font-family:Roboto, sans-serif;
+font-size:12px;
+font-weight:400;
+height:50px;
+line-height:50px;
+margin-bottom:10px;
+margin-left:10px;
+margin-right:0px;
+margin-top:0px;
+position:relative;
+text-align:center;
+text-decoration-color:rgb(245, 245, 245);
+text-decoration-line:none;
+text-decoration-style:solid;
+text-size-adjust:100%;
+transition-delay:0s;
+transition-duration:0.3s;
+transition-property:all;
+transition-timing-function:ease;
+width:50px;
+z-index:1;
+-webkit-font-smoothing:antialiased;
+-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+    }
+    .social a{
+      margin-left: 9px;
+    }
+    #follow{
+
+      width:130%;
+
+
+    }
+    #followt{
+      margin-left: 0px;
+      margin-top: 0;
+
+      align-self:flex-start;
+      background-size: cover;
+    }
+    .college{
+      border: solid black;
+      border-width: thick;
+      border-radius: 20px;
+      opacity:0.8;
+
+
+    }
+    .college:hover{
+      opacity:1;
+    }
+    #photo{
+      background-color: white;
+      border-radius: 50px;
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg nav-bar fixed-top">
+      <a href="file:///C:/Users/hp/Downloads/notespickup.html" class="navbar-brand"><img id="photo"src="file:///C:/Users/hp/Downloads/notes.png" width="50" height="50" alt=""><strong>LectureNotes</strong>
+        </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+           </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul>
+        <li class="nav-item">
+          <a href="file:///C:/Users/hp/Downloads/notespickup.html">Home <i class="fa fa-home"></i>
+          </a>
+        </li>
+
+          <li class="nav-item dropdown"><i class="fa fa-caret-down"></i>Explore
+    <div class="sub-menu">
+           <ul>
+             <li class="hover-me">Engineering Technology <i class="fa fa-angle-right"></i>
+               <div class="sub-sub-menua">
+              <ul>
+                <div class="row">
+                  <div class="col-sm-6 ">
+
+                <li><a href="https://lecturenotes.in/course/all/btech/electrical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electrical Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/computer-science-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Computer Science Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/applied-electronics-and-instrumentation-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electronics and Instrumentation Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/information-technology-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Information Tchnology Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/electronics-and-telecommunication-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electronics and Telecommunication Engineering</a></li></div>
+                <div class="col-sm-6">
+                <li><a href="https://lecturenotes.in/course/all/btech/electrical-and-electronics-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electrical and Electronics Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/12-chemical-chemical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Chemical Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/civil-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Civil Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/btech/mechanical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Mechanical Engineering</a></li>
+                <li><a href="https://lecturenotes.in/course/all/mca/master-of-computer-application?utm_source=megamenu&utm_medium=web&utm_campaign=course">Master of computer Application</a></li>
+</div></div>
+              </ul>
+              </div>
+             </li>
+             <li class="hover-me">Placement Preparation <i class="fa fa-angle-right"></i>
+              <div class="sub-sub-menub">
+              <ul>
+                <li><a href="https://lecturenotes.in/question-set/course/all/placement-preparation/quantitative-aptitude">Quantitative Aptitude</a></li>
+                <li><a href="https://lecturenotes.in/question-set/course/all/placement-preparation/logical-reasoning">Logical Reasoning</a></li>
+                <li><a href="https://lecturenotes.in/question-set/course/all/placement%20preparation/verbal-ability/all/all">Verbal Ability</a></li>
+                <li><a href="https://lecturenotes.in/question-set/course/all/placement%20preparation/logical-reasoning/all/all">Verbal Reasoning</a></li>
+                <li><a href="https://lecturenotes.in/question-set/course/all/placement-preparation/all">View All</a></li>
+              </ul>
+              </div>
+             </li>
+             <li class="hover-me">Discover More <i class="fa fa-angle-right"></i>
+               <div class="sub-sub-menua">
+              <ul>
+                <div class="row">
+                  <div class="col-sm-6 ">
+                <li><a href="https://lecturenotes.in/classrooms">All Classrooms</a> <span class="badge badge-warning ml-1">New></span></li>
+                <li><a href="https://lecturenotes.in/latest-uploads?utm_source=megamenu&utm_medium=web&utm_campaign=latest-upload">Latest Uploads</a></li>
+                <li><a href="https://lecturenotes.in/video-tutorials?utm_source=megamenu&utm_medium=web&utm_campaign=video-tutorials">Video Tutorials</a></li></div>
+                <div class="col-sm-6">
+                <li><a href="https://lecturenotes.in/all-question-sets?utm_source=megamenu&utm_medium=web&utm_campaign=all-question-sets">Question Sets</a></li>
+                <li><a href="https://lecturenotes.in/pyq-explore">Previous Year Question</a></li>
+                <li><a href="https://lecturenotes.in/question-bank-explore">Question Bank</a></li>
+                <li><a href="https://lecturenotes.in/practicals?utm_source=megamenu&utm_medium=web&utm_campaign=lab-manuals">Lab Manuals</a></li>
+              </div></div>
+              </ul>
+              </div>
+             </li>
+           </ul>
+           </div>
+          </li>
+          <li class="nav-item"><a href="https://accounts.lecturenotes.in/login?continue=http%3A%2F%2Flecturenotes.in%2Fupload%3Futm_campaign%3Dmaterial_upload%26utm_medium%3Dweb%26utm_source%3Dnavbar">Upload</a><i class="fa fa-upload"></i></li>
+          <li class="nav-item"><a href="https://lecturenotes.in/internship?utm_source=navbar&utm_medium=web&utm_campaign=internship_introduction">Internship</a> <span class="badge badge-warning ml-1">New</span></li>
+          <li class=nav-item><a href="https://lecturenotes.in/campus-ambassador?utm_source=navbar&utm_medium=web&utm_campaign=lca">LCA</a> <span class="badge badge-warning ml-1">New</span></li>
+          <li class="nav-item"><a href="https://lecturenotes.in/prime">Prime</a> <span class="badge badge-warning ml-1">New</span></li>
+
+          <li>
+            <div class="navbar-nav navbar-right mr-2">
+              <div class="d-none d-md-inline-block">
+                <a href="https://accounts.lecturenotes.in/login" class="btn btn-sm btn-raised sso_login_btn btn-warning animated zoomInDown animation-delay-8">Register/Login
+                  <div class="ripple-container">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <a class="ms-toggle-left btn-navbar-menu d-inline-block d-md-none">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </a>
+            </li>
+        </ul>
+
+
+</div></div>
+        </nav>
+
+    <div class= >
+      <div class="pads jumbotron">
+        <h2 class="lol">Get the best <strong>LectureNotes</strong></h2>
+      <form class="yee ">
+            <input class="form-control mr-sm-4" type="search" placeholder="Howdy! Search for your interest" aria-label="Search"><br>
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+      <div class= "row all">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 first">
+          <p><span class="yo"><strong>1M+</strong></span> <br>ACTIVE STUDENTS</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 second">
+          <p><span class="yo"><strong>25000+</strong></span><br>TEACHERS<p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 third">
+          <p><span class="yo"><strong>1000000+</strong></span><br>PAGES</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 fourth">
+          <p><span class="yo"><strong>100000+</strong></span><br>QUESTIONS</p>
+        </div>
+      </div><br>
+      <div class="college">
+
+
+      <a id= "hover"href="https://lecturenotes.in/course/amity-university" ><img src="https://lecturenotes.in/assets/img/Home/institute/amity.png"></a>
+      <a id= "hover"href="https://lecturenotes.in/course/vtu" ><img src="https://lecturenotes.in/assets/img/Home/institute/vtu.png"></a>
+      <a id= "hover"href="https://lecturenotes.in/course/anna" ><img src="https://lecturenotes.in/assets/img/Home/institute/anna.png"></a>
+      <a id= "hover"id= "hover"href="https://lecturenotes.in/course/jntuh" ><img src="https://lecturenotes.in/assets/img/Home/institute/jntu.png"></a>
+      <a id= "hover"href="https://lecturenotes.in/course/bput" ><img src="https://lecturenotes.in/assets/img/Home/institute/bput.png"></a>
+      <a id= "hover"href="https://lecturenotes.in/course/kiit-university" ><img src="https://lecturenotes.in/assets/img/Home/institute/kiit.png"></a>
+      </div>
+      </div>
+      <div>
+        <div class="container">
+          <h2 class="hello"><strong>Select a course</strong><i class="fa fa-book"></i></h2>
+          <p></p>
+          <p></p>
+          <div class="row ">
+            <a class="btn btn-light col nex" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Engineering and Technology</a>
+          <button class="btn btn-light col nex" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Placement and more</button>
+          </div>
+
+
+
+        <div class="row">
+          <div class="col ">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div id="follow" class="row">
+                <div class="col-sm-6 ">
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/electrical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electrical Engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/computer-science-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Computer Science Engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/applied-electronics-and-instrumentation-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electronics and Instrumentation Engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/information-technology-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Information Technology Engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/electronics-and-telecommunication-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electronics and Telecommunication Engineering</a>
+              </div>
+            </div>
+
+              <div id="followt"class="col-sm-6 ">
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/electrical-and-electronics-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Electrical and Electronics engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/12-chemical-chemical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Chemical engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/civil-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">electrical engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/btech/mechanical-engineering?utm_source=megamenu&utm_medium=web&utm_campaign=course">Mechanical engineering</a>
+              </div>
+              <div class=" col-lg-6 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/course/all/mca/master-of-computer-application?utm_source=megamenu&utm_medium=web&utm_campaign=course">Master of Computer Applications</a>
+              </div>
+            </div></div>
+
+            </div>
+          </div>
+          <div class="col ">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div id="follow" class="row">
+                <div class="col-sm-6 ">
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/question-set/course/all/placement-preparation/quantitative-aptitude?utm_source=megamenu&utm_medium=web&utm_campaign=question-set-course">Quantitive Aptitude</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/question-set/course/all/placement-preparation/logical-reasoning?utm_source=megamenu&utm_medium=web&utm_campaign=question-set-course">Logical Reasoning</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/question-set/course/all/placement-preparation/verbal-ability?utm_source=megamenu&utm_medium=web&utm_campaign=question-set-course">Verbal Ability</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/question-set/course/all/placement-preparation/verbal-reasoning?utm_source=megamenu&utm_medium=web&utm_campaign=question-set-course">Verbal Reasoning</a>
+              </div>
+            </div>
+
+              <div id="followt"class="col-sm-6 ">
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/latest-uploads?utm_source=megamenu&utm_medium=web&utm_campaign=latest-upload">Latest Uploads</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/video-tutorials?utm_source=megamenu&utm_medium=web&utm_campaign=video-tutorials">Video Tutorials</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/all-question-sets?utm_source=megamenu&utm_medium=web&utm_campaign=all-question-sets">Question Sets</a>
+              </div>
+              <div class=" col-lg-5 nexa">
+                <a class="btn btn-light col nex" href="https://lecturenotes.in/practicals/page?utm_source=megamenu&utm_medium=web&utm_campaign=lab-manuals">Lab Manuals</a>
+              </div>
+            </div></div>
+            </div>
+          </div>
+      </div>
+        </div>
+
+
+      <br><br>
+      <div class="jumbotron ">
+
+        <h2 class="center ">What We Offer</h2>
+        <div class="row">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 first">
+            <a class="btn btn-light btn-lg" href="https://lecturenotes.in/all-notes?utm_source=home&utm_medium=web&utm_campaign=all-notes"><img src="https://lecturenotes.in/assets/img/Home/find_notes.png" alt=""><br>University Notes </a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 second">
+            <a class="btn btn-light btn-lg" href="https://lecturenotes.in/pyq-solutions?utm_source=home&utm_medium=web&utm_campaign=pyq_solutions"><br><img src="https://lecturenotes.in/assets/img/Home/pyq_and_solution.png" alt=""><br>Exam Question and Solution</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 third">
+            <a class="btn btn-light btn-lg" href="https://lecturenotes.in/video-tutorials?utm_source=home&utm_medium=web&utm_campaign=video-tutorials"><br><img src="https://lecturenotes.in/assets/img/Home/video_lecture.png" alt=""><br><br>Video Lectures and Tutorials</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xm-12 fourth">
+            <a class="btn btn-light btn-lg" href="https://lecturenotes.in/placement-preparations?utm_source=home&utm_medium=web&utm_campaign=placement-preparations"><img src="https://lecturenotes.in/assets/img/Home/placement_preparation.png" alt=""><br>Placement Preperation Courses</a>
+          </div>
+
+        </div>
+      </div>
+      <br><br>
+      <div class="container kala">
+        <div class="row">
+          <div class="col-lg-6 ">
+          <h3><span class="wo">How LectureNotes Help</span></h3><br>
+          <ul>
+            <li>Dictation kills classroom time, and conceptual discussion is non-existent these days.</li><br>
+            <li>Teacher share their notes at LectureNotes teach freely in the classroom and discuss in the concept.</li><br>
+            <li>Students can access the notes from different teachers, compare them and refer to the one that suits their requirements.</li><br>
+          </p>
+          <a class="btn btn-primary"href="https://accounts.lecturenotes.in/login?continue=http%3A%2F%2Flecturenotes.in%2Fupload">Upload<i class="fas fa-upload"></i></a>
+          <a class="btn btn-warning"href="https://lecturenotes.in/course">Read Now<i class="fas fa-book-reader"></i></a>
+        </div>
+        <div class="col-lg-6">
+          <iframe width="550" height="350"
+src="https://www.youtube.com/embed/SVkXUGj4t_8">
+</iframe>
+        </div>
+        </div>
+      </div>
+
+      <div class="jumbotron jumbotron-fluid">
+
+
+      <div class="tala">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-6 mala">
+              <h3>Download Our Android App</h3><br>
+              <p>Keep your favourite notes in your pocket and access it whenever you need, even without internet.</p>  <br><br>
+              <a class="btn btn-warning" href="https://play.google.com/store/apps/details?id=in.lecturenotes.lecturenotes">Download Now<i class="fas fa-download"></i></a>
+            </div>
+            <div class="col-lg-6">
+              <img src="https://lecturenotes.in/assets/img/Home/mobile.png">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+      <br><br>
+
+      <section class="color-bg-white">
+        <div class="container pt-4 pb-4">
+          <div class="row justify-content-center">
+            <div class="col-md-10 text-center">
+              <h2 class="text-center color-primary">What they say</h2>
+              <div class="center-block">
+                <div id="carousel-example-generic" class="carousel-cards carousel slide pointer-event" data-ride="carousel">
+                  <div class="carousel-inner pb-4" role="list">
+                    <div class="carousel-item pl-0" role="listitem">
+                      <div class="row blockquote p-0 justify-content-center">
+                        <div class="col-md-4 col-4">
+                          <div class="pb-2">
+                            <a href="/u/sunilesh">
+                              <span class="ok"><img id="photo"class="img-fluid avatar" src="https://lecturenotes.in/uploads/avatars/5/55/5560fb093207afdea4fb59428b2c6cd3.jpg" alt="Prof. Sunil S Harakannanavar">
+                            </span></a>
+                          </div>
+                        </div>
+                        <div class="col-md-8">
+                          <p class="text-justify testimonial-text">Both the faculties and young research-minded students save a lot of their valuable time for discussing the novel concepts in their respective fields without the dictation of notes in the classroom. It’s a very good platform for both students and faculties to share their innovative ideas and knowledge. Also, the platform helps the faculties to complete their syllabus within the stipulated time. So, I will encourage the faculties to upload quality based notes to share their knowledge among young minds in their respective fields.
+                          </p>
+                          <footer class="text-right">
+                            <a href="/u/sunilesh">
+                              <strong>Prof. Sunil S Harakannanavar</strong></a>
+                              ,
+                                                <br>
+                                <cite title="Source Title">S. G. Balekundri Institute of Technology, Belagavi.
+                                </cite>
+                              </footer>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item pl-0" role="listitem">
+                          <div class="row blockquote p-0 justify-content-center">
+                            <div class="col-md-4 col-4">
+                              <div class="pb-2">
+                                <a href="/u/tmishra">
+                                  <span class="ok"><img class="img-fluid avatar" src="https://lecturenotes.in/uploads/avatars/a/ae/ae1f901e729d10c573c7d5e738e666a7.jpg" alt="Tarini Charan Mishra">
+                                </span></a>
+                              </div>
+                            </div>
+                            <div class="col-md-8">
+                              <p class="text-justify testimonial-text">Dictation takes a huge amount of time which can rather be used to discuss concepts in the classroom. It is very good for students and faculties and I would encourage all the faculties to upload their notes on LectureNotes so that they can spend more time explaining the concepts and students get notes from the website.
+                              </p>
+                              <footer class="text-right">
+                                <a href="/u/tmishra"><strong>Tarini Charan Mishra</strong></a>,
+                                                <br>
+                                <cite title="Source Title">Silicon Institute of Technology</cite>
+                              </footer>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="carousel-item pl-0 active" role="listitem">
+                          <div class="row blockquote p-0 justify-content-center">
+                            <div class="col-md-4 col-4">
+                              <div class="pb-2">
+                                <a href="/u/ajayketan">
+                                  <span class="ok"><img class="img-fluid avatar" src="https://lecturenotes.in/uploads/avatars/2/2f/2f3bf5e8cb4884b89748ffa4f18eef17.jpg" alt="Prof. A. K. Nayak"></span>
+                                </a>
+                              </div>
+                            </div>
+                            <div class="col-md-8"><p class="text-justify testimonial-text">LectureNotes has helped us increase classroom interaction with the students. It has not only helped me in completing the syllabus on time but also to get recognition among the faculties and students.</p><footer class="text-right"><a href="/u/ajayketan"><strong>Prof. A. K. Nayak</strong></a>,
+                                                <br>
+                                      <cite title="Source Title">KIIT University, Bhubaneswar</cite>
+                                    </footer>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item pl-0" role="listitem">
+                                <div class="row blockquote p-0 justify-content-center">
+                                  <div class="col-md-4 col-4">
+                                    <div class="pb-2">
+                                      <a href="/u/deepaksahoo">
+                                        <span class="ok"><img class="img-fluid avatar" src="https://lecturenotes.in/uploads/avatars/a/a0/a06f7039316a73ca7e40dffc302acf3d.jpg" alt="Prof. Deepak Kumar Sahoo">
+                                      </span></a>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <p class="text-justify testimonial-text">Dictation and teaching cannot be done simultaneously in class. Thanks to LectureNotes, I don't have to dictate notes in the class as I upload them on the website. The faculty community has come together through this platform and we are getting in touch with other faculties and are being able to help each other.
+                                    </p>
+                                    <footer class="text-right">
+                                      <a href="/u/deepaksahoo">
+                                        <strong>Prof. Deepak Kumar Sahoo</strong>
+                                      </a>,
+                                                <br>
+                                                <cite title="Source Title">College of Engineering, Bhubaneswar</cite>
+                                              </footer>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <ol class="carousel-indicators carousel-indicators-primary">
+                                        <div class="okk">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="">
+                                        </li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1" class="">
+                                        </li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
+                                        </li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="3" class="">
+                                        </li>
+                                      </div>
+                                      </ol>
+                                    </div>
+                                  </div></div></div></div></section>
+      <aside class="ms-footbar">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-4 ms-footer-col" id="yay">
+
+                  <li role="listitem">
+                    <a href="/aboutus?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=about_us_page">
+                      About Us</a>
+                    </li><br>
+                    <li role="listitem">
+                      <a href="/careers?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=career_page">
+                        Careers</a>
+                      </li><br>
+                      <li role="listitem"
+                      ><a href="/report?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=report_page">
+                        Report an Error</a>
+                      </li><br>
+                      <li role="listitem">
+                        <a href="/contact-us?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=contactus_page">
+                          Contact Us</a>
+                        </li><br>
+                        <li role="listitem">
+                          <a href="/disclaimer?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=declaimer_page">
+                            Disclaimer</a>
+                          </li><br>
+                        </div>
+                        <div class="col-xs-4" id="yay">
+
+                          <li role="listitem">
+                            <a href="/privacy?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=privacy_policy">
+                              Privacy Policy</a>
+                            </li><br>
+                            <li role="listitem">
+                              <a href="/returns-and-cancellation?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=return%26cancellation">
+                                Returns and Cancellation</a>
+                              </li><br>
+                              <li role="listitem">
+                                <a href="/tou?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=terms_of_use">
+                                  Terms of Use</a>
+                                </li><br>
+                                <li role="listitem">
+                                  <a href="/advertise-with-us?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=advertise">
+                                    Advertise with Us</a>
+                                </li><br>
+                              </div>
+                              <div class="col-xs-4" id="yay">
+                                  </li>
+                                  <li role="listitem">
+                                    <a href="/are-you-faculty?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=for_faculty">
+                                      For Faculties</a>
+                                    </li><br>
+                                    <li role="listitem">
+                                      <a href="/report/copyright?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=copyright_policy">
+                                        Copyright Policy</a>
+                                      </li><br>
+                                      <li role="listitem">
+                                        <a href="/campus-ambassador?utm_source=footer&amp;utm_medium=web&amp;utm_campaign=campus_ambassador">
+                                          Campus Ambassador</a>
+                                        </li><br>
+                                        <li role="listitem">
+                                          <a href="/faq">
+                                            FAQ</a>
+
+                                        </div>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                    <div class="final">
+
+
+                                    <div class="col-lg-4 col-md-5 ms-footer-col ms-footer-right">
+                                      <div class="ms-footbar-block">
+                                        <div class="ms-footbar-title">
+                                          <a href="https://apps.apple.com/us/app/lecturenotes-learner/id1482508043?ls=1" target="_blank" rel="noreferrer">
+                                            <img src="https://lecturenotes.in/assets/img/appstore.png" alt="Download From App Store" class="img-responsive gPlay-btn">
+                                          </a>
+                                        </div>
+                                        <div class="ms-footbar-title">
+                                          <a href="https://play.google.com/store/apps/details?id=in.lecturenotes.lecturenotes" target="_blank" rel="noreferrer">
+                                            <br><img src="https://lecturenotes.in/assets/img/googleplay.png" alt="Download From Google Play Store" class="img-responsive gPlay-btn">
+                                          </a>
+                                        </div>
+                                        <address class="no-mb">
+                                          <p>
+                                            <br><a id="wok" href="mailto:support@lecturenotes.in">support@lecturenotes.in
+                                            </a>
+                                          </p>
+                                        </address>
+                                      </div>
+                                      <div class="ms-footbar-block">
+                                        <div class="ms-footbar-social">
+                                          <div class="social">
+                                          <a id="fb" href="https://facebook.com/lecturenotes.in" class="btn-circle btn-circle-raised btn-facebook" aria-label="facebook">
+                                            <i class="fa fa-facebook" aria-hidden="true">
+                                            </i>
+                                          </a>
+                                         <a id="tw" href="https://twitter.com/Lecturenotesin" class="btn-circle btn-circle-raised btn-twitter" aria-label="twitter">
+                                            <i class="fa fa-twitter" aria-hidden="true">
+                                            </i>
+                                          </a>
+                                        <a id="ln" href="https://www.linkedin.com/company/lecturenotes-in" class="btn-circle btn-circle-raised btn-linkedin" aria-label="linkedin">
+                                            <i class="fa fa-linkedin" aria-hidden="true">
+                                            </i>
+                                          </a>
+                                          <a id="pi"href="https://in.pinterest.com/lecturenotes/" class="btn-circle btn-circle-raised btn-google" aria-label="pinterest">
+                                            <i class="fa fa-pinterest" aria-hidden="true">
+                                            </i>
+                                          </a>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+
+                              </aside></div>
+<div class="container"><p><span class="sum">© Copyright 2020. All Rights Reserved.</span></p></div>
+
+<div class="btn-back-top back-show">
+  <a href="#" data-scroll="" id="back-top" class="btn-circle btn-circle-primary btn-circle-sm btn-circle-raised" aria-label="back to top">
+    <i class="fa fa-arrow-up">
+    </i>
+  </a>
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
